@@ -1,0 +1,6 @@
+{
+  "name": "Biblioteca Municipal Professor Jean Jobis da Silva",
+  "description": "Portal oficial e catálogo de livros da Biblioteca Municipal Professor Jean Jobis da Silva sincronizado automaticamente com o Libib.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

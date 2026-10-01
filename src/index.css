@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+.font-display {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-script {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Accessibility Typography Modes */
+html.font-dyslexic,
+html.font-dyslexic * {
+  font-family: 'OpenDyslexic', 'Comic Sans MS', 'Trebuchet MS', Verdana, sans-serif !important;
+  letter-spacing: 0.04em !important;
+  word-spacing: 0.12em !important;
+  line-height: 1.7 !important;
+}
+
+/* Font Size Scales */
+html.text-size-sm {
+  font-size: 14px;
+}
+html.text-size-base {
+  font-size: 16px;
+}
+html.text-size-lg {
+  font-size: 18px;
+}
+html.text-size-xl {
+  font-size: 20px;
+}
+
+/* High Contrast Mode */
+html.high-contrast {
+  filter: contrast(125%);
+}
+
+html.high-contrast body {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+html.high-contrast .bg-white,
+html.high-contrast .bg-stone-50,
+html.high-contrast .bg-stone-100,
+html.high-contrast .bg-stone-200 {
+  background-color: #121212 !important;
+  color: #FFFFFF !important;
+  border-color: #FFFF00 !important;
+}
+
+html.high-contrast .text-stone-900,
+html.high-contrast .text-stone-800,
+html.high-contrast .text-stone-700,
+html.high-contrast .text-stone-600 {
+  color: #FFFFFF !important;
+}
+
+html.high-contrast .text-stone-500,
+html.high-contrast .text-stone-400 {
+  color: #FFFF99 !important;
+}
+
+html.high-contrast a,
+html.high-contrast button.text-emerald-800,
+html.high-contrast .text-emerald-800,
+html.high-contrast .text-emerald-900 {
+  color: #FFFF00 !important;
+  text-decoration: underline !important;
+}
+
+html.high-contrast .bg-emerald-800,
+html.high-contrast .bg-emerald-900 {
+  background-color: #004D20 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #FFFF00 !important;
+}
+
+/* Reduced Motion Mode */
+html.reduced-motion *,
+html.reduced-motion *::before,
+html.reduced-motion *::after {
+  animation-duration: 0.001s !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001s !important;
+  scroll-behavior: auto !important;
+}
+
+/* Mobile App Helpers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.safe-area-pb {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+}
+

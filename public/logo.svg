@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bookPageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2942" />
+      <stop offset="100%" stop-color="#1E3A5F" />
+    </linearGradient>
+  </defs>
+
+  <!-- Illustration Group -->
+  <g transform="translate(0, 10)">
+    <!-- Book 1 (Leftmost, dark blue) -->
+    <rect x="92" y="115" width="28" height="95" rx="5" fill="#1E3A5F" />
+    <path d="M92 125 h28 M92 133 h28" stroke="#FFFFFF" stroke-width="2.5" stroke-opacity="0.8" />
+
+    <!-- Book 2 (Green) -->
+    <rect x="120" y="102" width="25" height="108" rx="5" fill="#2E7D5B" />
+    <path d="M120 114 h25 M120 122 h25" stroke="#FFFFFF" stroke-width="2.5" stroke-opacity="0.8" />
+
+    <!-- Book 3 (Gold/Yellow) -->
+    <rect x="145" y="85" width="26" height="125" rx="5" fill="#C89B3C" />
+    <path d="M145 98 h26 M145 106 h26" stroke="#FFFFFF" stroke-width="2.5" stroke-opacity="0.8" />
+
+    <!-- Book 4 (Amber/Ochre) -->
+    <rect x="171" y="125" width="26" height="85" rx="5" fill="#D9822B" />
+
+    <!-- Library Building -->
+    <!-- Main Angled Roof / Canopy -->
+    <polygon points="175,142 260,95 348,142 338,155 260,112 185,155" fill="#0F2942" />
+    <!-- Building Body / Columns -->
+    <polygon points="204,142 225,130 225,200 204,200" fill="#1E3A5F" />
+    <rect x="225" y="115" width="108" height="85" fill="#0F2942" />
+    <!-- Window Grid (White/Light blue interior) -->
+    <rect x="235" y="128" width="88" height="64" fill="#EBF2F7" />
+    <!-- Glass mullions -->
+    <line x1="264" y1="128" x2="264" y2="192" stroke="#0F2942" stroke-width="3" />
+    <line x1="293" y1="128" x2="293" y2="192" stroke="#0F2942" stroke-width="3" />
+    <line x1="235" y1="149" x2="323" y2="149" stroke="#0F2942" stroke-width="3" />
+    <line x1="235" y1="170" x2="323" y2="170" stroke="#0F2942" stroke-width="3" />
+    <!-- Glass door entrance -->
+    <rect x="264" y="170" width="30" height="22" fill="#D2E3EF" />
+    <line x1="279" y1="170" x2="279" y2="192" stroke="#0F2942" stroke-width="2" />
+
+    <!-- Tree (Knowledge Tree) -->
+    <!-- Trunk and Branches -->
+    <path d="M365,195 C363,165 352,145 340,132 C350,130 365,120 370,105 M350,140 C358,135 365,145 380,135 M362,160 C375,155 385,165 395,155 M365,195 C368,175 372,150 365,130" 
+          stroke="#8B6B38" stroke-width="6" stroke-linecap="round" fill="none" />
+    <!-- Foliage / Leaves -->
+    <ellipse cx="325" cy="88" rx="8" ry="14" transform="rotate(-30 325 88)" fill="#789D4A" />
+    <ellipse cx="340" cy="74" rx="8" ry="14" transform="rotate(15 340 74)" fill="#688D3C" />
+    <ellipse cx="360" cy="68" rx="9" ry="14" transform="rotate(35 360 68)" fill="#789D4A" />
+    <ellipse cx="380" cy="78" rx="8" ry="14" transform="rotate(45 380 78)" fill="#8EB458" />
+    <ellipse cx="395" cy="95" rx="8" ry="13" transform="rotate(60 395 95)" fill="#688D3C" />
+    <ellipse cx="350" cy="98" rx="8" ry="13" transform="rotate(-15 350 98)" fill="#789D4A" />
+    <ellipse cx="372" cy="108" rx="9" ry="14" transform="rotate(25 372 108)" fill="#789D4A" />
+    <ellipse cx="390" cy="120" rx="8" ry="13" transform="rotate(40 390 120)" fill="#8EB458" />
+    <ellipse cx="408" cy="138" rx="7" ry="12" transform="rotate(55 408 138)" fill="#688D3C" />
+    <ellipse cx="358" cy="128" rx="7" ry="13" transform="rotate(-10 358 128)" fill="#789D4A" />
+    <ellipse cx="380" cy="142" rx="8" ry="13" transform="rotate(30 380 142)" fill="#8EB458" />
+    <ellipse cx="400" cy="160" rx="7" ry="12" transform="rotate(45 400 160)" fill="#688D3C" />
+
+    <!-- Open Book Base (Broad Open Bible/Encyclopedia Shape) -->
+    <!-- Back Cover Shadow -->
+    <path d="M68,230 Q250,195 432,230 Q390,265 250,235 Q110,265 68,230 Z" fill="#0F2942" />
+    <!-- Left Page Layers -->
+    <path d="M72,228 Q160,196 250,224 Q160,202 78,238 Z" fill="#FFFFFF" />
+    <path d="M78,236 Q160,206 250,227 Q160,212 85,244 Z" fill="#FFFFFF" />
+    <!-- Right Page Layers -->
+    <path d="M428,228 Q340,196 250,224 Q340,202 422,238 Z" fill="#FFFFFF" />
+    <path d="M422,236 Q340,206 250,227 Q340,212 415,244 Z" fill="#FFFFFF" />
+    <!-- Central Spine / Binding Arc -->
+    <path d="M70,228 Q160,192 250,224 Q340,192 430,228 Q380,268 250,235 Q120,268 70,228 Z" fill="#0F2942" />
+    <path d="M230,228 Q250,238 270,228 Q250,248 230,228 Z" fill="#FFFFFF" />
+  </g>
+
+  <!-- Typography Group -->
+  <g text-anchor="middle">
+    <!-- BIBLIOTECA -->
+    <text x="250" y="295" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
+          font-weight="900" font-size="34" letter-spacing="4" fill="#0F2942">
+      BIBLIOTECA
+    </text>
+
+    <!-- ― MUNICIPAL ― -->
+    <g transform="translate(0, 322)">
+      <line x1="68" y1="-5" x2="135" y2="-5" stroke="#3D6E50" stroke-width="2.5" stroke-linecap="round" />
+      <text x="250" y="0" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
+            font-weight="700" font-size="17" letter-spacing="4" fill="#3D6E50">
+        MUNICIPAL
+      </text>
+      <line x1="365" y1="-5" x2="432" y2="-5" stroke="#3D6E50" stroke-width="2.5" stroke-linecap="round" />
+    </g>
+
+    <!-- PROFESSOR with subtle accent lines -->
+    <g transform="translate(0, 355)">
+      <line x1="72" y1="-5" x2="160" y2="-5" stroke="#C89B3C" stroke-width="1.8" />
+      <text x="250" y="0" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" 
+            font-weight="700" font-size="14" letter-spacing="4.5" fill="#C89B3C">
+        PROFESSOR
+      </text>
+      <line x1="340" y1="-5" x2="428" y2="-5" stroke="#C89B3C" stroke-width="1.8" />
+    </g>
+
+    <!-- Jean Jobis da Silva (Script) -->
+    <text x="250" y="410" font-family="'Dancing Script', cursive" 
+          font-weight="700" font-size="44" fill="#0F2942">
+      Jean Jobis da Silva
+    </text>
+
+    <!-- Elegant Bottom Green Arc -->
+    <path d="M130,425 Q250,442 370,425" stroke="#3D6E50" stroke-width="3" stroke-linecap="round" fill="none" />
+  </g>
+</svg>
